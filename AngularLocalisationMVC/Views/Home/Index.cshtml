@@ -1,0 +1,27 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div ng-controller="currencyController">
+    <input type="text" />
+    <input type="text" ng-model="testModel" rb-select-all-on-focus="true" ng-currency>(autoformat on blur!)
+    <p>model value: {{testModel}}</p>
+    <p>model after currency filter: {{testModel | currency}}</p>
+</div>
+
+@section scripts {
+
+    <script>
+        //var app = angular.module('app');
+
+        var app = angular.module('app', ['ng-currency', 'rb.select-all-on-focus']);
+        app.controller('currencyController', function ($scope) {
+
+            $scope.testModel = 123456.78;
+
+        });
+    </script>
+
+
+
+}
