@@ -170,6 +170,7 @@
     </Content>
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\i18n\angular-locale_en-gb.js" />
+    <Content Include="Scripts\i18n\angular-locale_en-us.js" />
     <Content Include="Scripts\i18n\angular-locale_es.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -182,6 +183,8 @@
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\Vendor\ng-currency.js" />
+    <Content Include="Scripts\Vendor\ng-percent.js" />
+    <Content Include="Scripts\Vendor\percentageModule.js" />
     <Content Include="Scripts\Vendor\rb-select-all-on-focus.js" />
     <Content Include="Scripts\_references.js" />
     <Content Include="Web.config" />

@@ -3,25 +3,35 @@
 }
 
 <div ng-controller="currencyController">
+
+    <h1>Currency</h1>
     <input type="text" />
-    <input type="text" ng-model="testModel" rb-select-all-on-focus="true" ng-currency>(autoformat on blur!)
-    <p>model value: {{testModel}}</p>
-    <p>model after currency filter: {{testModel | currency}}</p>
+    <input type="text" ng-model="testCurrency" rb-select-all-on-focus="true" ng-currency>(autoformat on blur!)
+    <p>model value: {{testCurrency}}</p>
+    <p>model after currency filter: {{testCurrency | currency}}</p>
+
+
+    <h1>Percentage</h1>
+    <input type="text" ng-model="testPercent" rb-select-all-on-focus="true" ng-percent="true" fraction="3" min="2" hard-cap="true">
+    <p>model value: {{testPercent}}</p>
+    <p>model after percentage filter: {{testPercent | percentage}}</p>
+
+
+    <h1>Date</h1>
+    <p>date: {{ date | date:'short' }}</p>
 </div>
 
 @section scripts {
 
     <script>
-        //var app = angular.module('app');
+        var app = angular.module('app', ['ng-currency', 'rb.select-all-on-focus', 'percentage', 'ng-percent']);
 
-        var app = angular.module('app', ['ng-currency', 'rb.select-all-on-focus']);
         app.controller('currencyController', function ($scope) {
-
-            $scope.testModel = 123456.78;
-
+            $scope.testCurrency = 12.34;
+            $scope.testPercent = 12.34;
+            $scope.date = new Date();
         });
+
     </script>
-
-
 
 }

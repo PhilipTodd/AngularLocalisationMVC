@@ -2,10 +2,25 @@
 <ArrayOfArrayOfArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ArrayOfArrayOfString>
     <ArrayOfString>
-      <string>c:\users\philip.todd\documents\visual studio 2015\Projects\AngularLocalisationMVC\AngularLocalisationMVC\Views\Shared\_Layout.cshtml</string>
+      <string>c:\users\philip.todd\documents\visual studio 2015\projects\angularlocalisationmvc\angularlocalisationmvc\views\shared\_layout.cshtml</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>c:\users\philip.todd\documents\visual studio 2015\Projects\AngularLocalisationMVC\AngularLocalisationMVC\Views\Home\Index.cshtml</string>
+      <string>C:\Users\Philip.todd\documents\visual studio 2015\Projects\AngularLocalisationMVC\AngularLocalisationMVC\Scripts\Vendor\angular-directive-percentage.js</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>c:\users\philip.todd\documents\visual studio 2015\projects\angularlocalisationmvc\angularlocalisationmvc\views\home\index.cshtml</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\Users\Philip.todd\documents\visual studio 2015\Projects\AngularLocalisationMVC\AngularLocalisationMVC\Scripts\Vendor\ng-currency.js</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\Users\Philip.todd\documents\visual studio 2015\Projects\AngularLocalisationMVC\AngularLocalisationMVC\Scripts\Vendor\ng-percent.js</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>c:\users\philip.todd\documents\visual studio 2015\projects\angularlocalisationmvc\angularlocalisationmvc\scripts\vendor\percentagemodule.js</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\Users\Philip.todd\documents\visual studio 2015\Projects\AngularLocalisationMVC\AngularLocalisationMVC\Scripts\Vendor\rb-select-all-on-focus.js</string>
     </ArrayOfString>
   </ArrayOfArrayOfString>
 </ArrayOfArrayOfArrayOfString>
